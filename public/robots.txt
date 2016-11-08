@@ -1,0 +1,3 @@
+Sitemap: http://www.invata-programare.ro/sitemap.xml
+User-agent: *
+Disallow:

@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300italic,100italic,300,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext);
+
+.admin-bg{
+	background: rgba(60, 141, 188, .3);
+	padding: 15px;
+	.posts-table{
+		background: #fff;
+		h4{
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+		}
+	}
+	.edit-pic{
+		width: 135px;
+		height: 135px;
+		padding: 5px;
+		position: relative;
+		.delete-img{
+			position: absolute;
+			top: 0px;
+			right: 5px;
+			color: #f00;
+			font-size: 24px;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.admin-categories{
+	list-style: none;
+	padding-left: 0px;
+}
+.category-item{
+	margin-bottom: 10px;
+}
+.login-form-1{
+	.login-button{
+		&:focus{
+			outline: none;
+		}
+	}
+}
+.dashboard-home{
+	padding: 0px 25px;
+}
+.data-wrapper{
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	.title{
+		display: block;
+		font-size: 18px;
+		border-bottom: 1px solid #eee;
+		margin-bottom: 10px;
+	}
+}
